@@ -46,5 +46,6 @@
   .welcome-container h2 {
     font-size: 36px;
     width: 85%;
+    line-height: 48px;
   }
 }
