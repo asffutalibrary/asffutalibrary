@@ -27,3 +27,11 @@
 .course-materials-wrapper {
   width: 100%;
 }
+
+@media only screen and (max-width: 767px) {
+  .course-materials-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+  }
+}

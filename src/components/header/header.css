@@ -85,3 +85,17 @@
   font-weight: 400;
   line-height: normal;
 }
+
+@media only screen and (max-width: 767px) {
+  .header-container {
+    gap: 80px;
+  }
+
+  .header-navlinks {
+    display: none;
+  }
+
+  .header-logo div p {
+    font-size: 16.85px;
+  }
+}

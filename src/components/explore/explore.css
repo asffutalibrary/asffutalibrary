@@ -20,6 +20,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: 48px; /* 133.333% */
+  text-align: center;
 }
 
 .explore-header p {
@@ -29,6 +30,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 48px; /* 240% */
+  text-align: center;
 }
 
 .explore-peace {
@@ -150,4 +152,21 @@
   line-height: 20px; /* 142.857% */
   text-transform: uppercase;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .explore-cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+  }
+
+  .explore-peace {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .peace-of-mind, .explore-buy {
+    width: 100%;
+  }
 }

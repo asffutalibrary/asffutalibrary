@@ -20,6 +20,16 @@
   gap: 53px;
 }
 
+.about-wrapper div {
+  width: 50%;
+}
+
+.about-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .about-text {
   display: flex;
   flex-direction: column;
@@ -27,7 +37,7 @@
   align-items: flex-start;
 }
 
-.about-text h2 {
+.about-text p {
   color: #000;
   font-family: "Inter", sans-serif;
   font-size: 28px;
@@ -49,4 +59,35 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+@media only screen and (max-width: 767px) {
+  .about-wrapper img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .about-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-wrapper div {
+    width: 100%;
+  }
+
+  .about-wrapper div {
+    width: 100%;
+  }
+
+  .about-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .about-container > h2 {
+    font-size: 36px;
+  }
 }
