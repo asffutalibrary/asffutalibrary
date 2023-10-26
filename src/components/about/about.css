@@ -90,4 +90,13 @@
   .about-container > h2 {
     font-size: 36px;
   }
+
+  .about-text p {
+    font-size: 20px;
+  }
+
+  .about-text button {
+    font-size: 20px;
+    padding: 20px 60px;
+  }
 }

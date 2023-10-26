@@ -161,6 +161,11 @@
     column-gap: 24px;
   }
 
+  .explore-header > p {
+    font-size: 16px;
+    line-height: 36px;
+  }
+
   .explore-peace {
     display: flex;
     flex-direction: column;
