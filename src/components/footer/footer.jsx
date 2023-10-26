@@ -16,24 +16,24 @@ const Footer = () => {
         </div>
         <div className="footer-sections">
           <div className="footer-navlinks">
-            <li><a href="/">About Us</a></li>
-            <li><a href="/">Latest Pos9ts</a></li>
-            <li><a href="/">Contact Us</a></li>
-            <li><a href="/">Shop</a></li>
+            <li><NavLink>About Us</NavLink></li>
+            <li><NavLink>Latest Posts</NavLink></li>
+            <li><NavLink>Contact Us</NavLink></li>
+            <li><NavLink>Shop</NavLink></li>
           </div>
           <div className="footer-navlinks">
             <h2>Help Links</h2>
-            <NavLink>HOME</NavLink>
-            <NavLink>LIBRARY</NavLink>
-            <NavLink>About</NavLink>
-            <NavLink>Contact us</NavLink>
+            <li><NavLink>About Us</NavLink></li>
+            <li><NavLink>Latest Posts</NavLink></li>
+            <li><NavLink>Contact Us</NavLink></li>
+            <li><NavLink>Shop</NavLink></li>
           </div>
           <div className="footer-navlinks">
             <h2>Useful Links</h2>
-            <NavLink>HOME</NavLink>
-            <NavLink>LIBRARY</NavLink>;
-            <NavLink>About</NavLink>
-            <NavLink>Contact us</NavLink>
+            <li><NavLink>About Us</NavLink></li>
+            <li><NavLink>Latest Posts</NavLink></li>
+            <li><NavLink>Contact Us</NavLink></li>
+            <li><NavLink>Shop</NavLink></li>
           </div>
         </div>
       </div>
