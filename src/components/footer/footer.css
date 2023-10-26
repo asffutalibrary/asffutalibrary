@@ -9,7 +9,6 @@
 }
   
 .footer-wrapper {
-    display: flex;
     gap: 108px;
     align-items: center;
 }
@@ -42,6 +41,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 100px; */
 }
   
 @media only screen and (max-width: 767px) {

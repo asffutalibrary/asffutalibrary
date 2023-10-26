@@ -19,7 +19,7 @@ const Header = () => {
           <NavLink>HOME</NavLink>
           <NavLink>LIBRARY</NavLink>
           <NavLink>About</NavLink>
-          <NavLink>contact us</NavLink>
+          <NavLink>Contact us</NavLink>
         </div>
       </div>
       <div className="header-search">
