@@ -33,12 +33,6 @@
   text-align: center;
 }
 
-/* .explore-cont {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 30px;
-} */
-
 .explore-peace {
   display: flex;
   width: 100%;
