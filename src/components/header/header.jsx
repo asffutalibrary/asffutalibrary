@@ -16,10 +16,9 @@ const Header = () => {
           </div>
         </div>
         <div className="header-navlinks">
-          <NavLink>HOME</NavLink>
-          <NavLink>LIBRARY</NavLink>
+          <NavLink to="/library/">LIBRARY</NavLink>
           <NavLink>About</NavLink>
-          <NavLink style={{width: 84}}>contact us</NavLink>
+          <NavLink style={{width: 84}}>Contact us</NavLink>
         </div>
       </div>
       <div className="header-search">
