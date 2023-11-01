@@ -1,8 +1,36 @@
 .book-section-container {
-    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.book-section-container h2 {
+.book-section-container > h2 {
     text-align: left;
-    padding: 10px 0;
+    padding: 40px 0;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.book-section-button {
+    border: none;
+    margin: 0 auto;
+    padding: 18px 36px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #781717;
+    border: 1px #781717 solid;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .book-section-container > h2 {
+        font-size: 18px;
+    }
+    
+    .books-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 24px;
+    }
 }
