@@ -14,6 +14,10 @@
   align-items: center;
 }
 
+.header-wrapper a {
+  text-decoration: none;
+}
+
 .header-logo {
   display: flex;
   gap: 8px;

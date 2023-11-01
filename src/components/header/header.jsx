@@ -8,17 +8,19 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="header-wrapper">
-        <div className="header-logo">
-          <img src={Logo} alt="asf-logo" />
-          <div>
-            <h2>ASFFUTA</h2>
-            <p>LIBRARY</p>
+        <NavLink to="/">
+          <div className="header-logo">
+            <img src={Logo} alt="asf-logo" className="" />
+            <div>
+              <h2>ASFFUTA</h2>
+              <p>LIBRARY</p>
+            </div>
           </div>
-        </div>
+        </NavLink>
         <div className="header-navlinks">
           <NavLink to="/library/">LIBRARY</NavLink>
-          <NavLink>About</NavLink>
-          <NavLink style={{width: 84}}>Contact us</NavLink>
+          <NavLink to="/about/">About</NavLink>
+          <NavLink to="/contact/" style={{width: 84}}>Contact us</NavLink>
         </div>
       </div>
       <div className="header-search">
