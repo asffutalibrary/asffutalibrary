@@ -9,6 +9,7 @@ const Library = () => {
       <Header />
       <BookSection sectionTitle="Spiritual Books" navLinkTo="/books/spiritual" />
       <BookSection sectionTitle="Academic Books" navLinkTo="/books/academics" />
+      <BookSection sectionTitle="Financial Books" navLinkTo="/books/financial" />
       <Footer />
     </>
   );
