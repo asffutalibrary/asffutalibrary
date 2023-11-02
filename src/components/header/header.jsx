@@ -3,6 +3,7 @@ import "./header.css";
 import Logo from "../../assets/asf-logo.png";
 import { NavLink } from "react-router-dom";
 import Search from "../../svg-components/search";
+import MobileNav from "../mobile-nav/mobileNav";
 
 const Header = () => {
   return (
@@ -21,6 +22,9 @@ const Header = () => {
           <NavLink to="/library/">LIBRARY</NavLink>
           <NavLink to="/about/">About</NavLink>
           <NavLink to="/contact/" style={{width: 84}}>Contact us</NavLink>
+        </div>
+        <div className="hamburger">
+          <MobileNav />
         </div>
       </div>
       <div className="header-search">
