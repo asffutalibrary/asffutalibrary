@@ -1,0 +1,44 @@
+
+.menu-button {
+    cursor: pointer;
+    position: relative;
+    padding: 0 10px;
+    z-index: 9999;
+}
+  
+.sliding-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    padding-right: 10%;
+    background-color: #fff;
+    transform: translateX(60vw);
+    transition: transform 0.5s ease-in-out;
+}
+  
+.sliding-menu.open {
+    transform: translateX(0);
+}
+  
+.sliding-menu ul {
+    list-style-type: none;
+    padding: 100px 20px;
+    margin: 0;
+}
+  
+.sliding-menu ul li {
+    padding: 10px;
+    text-align: left;
+}
+  
+.sliding-menu ul a {
+    color: #000;
+    text-decoration: none;
+}
+
+.sliding-menu ul a:hover {
+    color: #781717;
+}
+  

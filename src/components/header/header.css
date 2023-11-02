@@ -48,6 +48,10 @@
   line-height: normal;
 }
 
+.hamburger {
+  display: none;
+}
+
 .header-navlinks {
   display: flex;
   flex-direction: row;
@@ -93,14 +97,27 @@
 
 @media only screen and (max-width: 767px) {
   .header-container {
-    gap: 80px;
+    gap: 28px;
+    flex-direction: column;
   }
 
   .header-navlinks {
     display: none;
   }
 
+  .header-wrapper {
+    justify-content: space-between;
+  }
+
+  .header-search {
+    width: 100%;
+  }
+
   .header-logo div p {
     font-size: 16.85px;
+  }
+
+  .hamburger {
+    display: block;
   }
 }
