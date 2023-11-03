@@ -13,7 +13,7 @@ const Explore = () => {
         </div>
         <div className="explore-wrapper">
           <div className="explore-cont">
-            <SingleBook />
+            <SingleBook title="Gods Generals The Revivalists" author="Robert Liardon" coverImage=""/>
             <SingleBook />
             <SingleBook />
             <SingleBook />
