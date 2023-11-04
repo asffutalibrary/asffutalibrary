@@ -1,15 +1,17 @@
 import React from "react";
 import "./singleBook.css";
-import Book from "../../assets/book.png";
+import Book from "../../assets/book.png"
 
-const SingleBook = () => {
+const SingleBook = ({ title = "Good morning holy spirit", author = "Hagin", coverImage = Book, bookLink }) => {
   return (
     <div className="single-book-container">
-      <img src={Book} alt="book" />
-      <div>
-        <h2>Good morning Holyghost</h2>
-        <p>Hagin</p>
-      </div>
+      <a href={bookLink} download={title} rel="nofollow noreferrer noindex">
+        <img src={coverImage} alt={title} />
+        <div>
+          <h2>{title}</h2>
+          <p>{author}</p>
+        </div>
+      </a>
     </div>
   );
 };

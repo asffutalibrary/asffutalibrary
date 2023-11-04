@@ -2,6 +2,16 @@ import React from "react";
 import "./explore.css";
 import SingleBook from "../single-book/singleBook";
 import Layout from "../../utils/layout/layout";
+// books
+import GodsGeneralImg from "../../assets/Gods-Generals-The-Revivalists.jpg"
+import GodsGeneralBook from "../../assets/books/Gods-Generals-TheRevivalists-Roberts-Liardon.pdf"
+import AtomicHabitImg from "../../assets/atomic-habits-james-clear.png"
+import AtomicHabitBook from "../../assets/books/Atomic-Habits-by-James-Clear.pdf"
+import PsyMoneyImg from "../../assets/psychology-of-money.webp"
+import PsyMoneyBook from "../../assets/books/Psychology-of-Money.pdf"
+import MonkFerrariImg from "../../assets/the-monk-who-sold-his-ferrari.jpg"
+import MonkFerrariBook from "../../assets/books/the-monk-who-sold-his-ferrari.pdf"
+
 
 const Explore = () => {
   return (
@@ -13,10 +23,10 @@ const Explore = () => {
         </div>
         <div className="explore-wrapper">
           <div className="explore-cont">
-            <SingleBook />
-            <SingleBook />
-            <SingleBook />
-            <SingleBook />
+            <SingleBook title="Gods Generals The Revivalists" author="Robert Liardon" coverImage={GodsGeneralImg} bookLink={GodsGeneralBook}/>
+            <SingleBook title="Atomic Habits" author="James Clear" coverImage={AtomicHabitImg} bookLink={AtomicHabitBook}/>
+            <SingleBook title="Psychology of Money" author="Morgan Housel" coverImage={PsyMoneyImg} bookLink={PsyMoneyBook} />
+            <SingleBook title="The Monk Who Sold His Ferrari" author="Robin Sharma" coverImage={MonkFerrariImg} bookLink={MonkFerrariBook} />
             <SingleBook />
             <SingleBook />
             <SingleBook />
