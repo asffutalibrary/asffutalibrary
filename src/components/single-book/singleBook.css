@@ -13,6 +13,10 @@
   width: 100%;
 }
 
+.single-book-container > a {
+  text-decoration: none;
+}
+
 .single-book-container div {
   border-radius: 8px;
   background: #fff;
