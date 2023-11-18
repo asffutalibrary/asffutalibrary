@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import Logo from "../../assets/asf-logo.png";
 import { NavLink } from "react-router-dom";
+import arrow from "../../assets/arrow.svg"
 
 const Footer = () => {
   return (
@@ -41,10 +42,15 @@ const Footer = () => {
             <form action="#" method="post">
               <div>
                 <input type="email" placeholder="Enter Email" />
+                <button type="submit"><img src={arrow} alt="subscribe" width="48" height="48" /></button>
               </div>
             </form>
           </div>
         </div>
+        <div className="bottom-footer">
+            <NavLink>Privacy Policy</NavLink>
+            <NavLink>Terms & Conditions</NavLink>
+          </div>
       </div>
     </div>
   );
