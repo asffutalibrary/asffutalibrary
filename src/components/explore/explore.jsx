@@ -5,9 +5,9 @@ import Layout from "../../utils/layout/layout";
 
 //book images
 import GodsGeneralImg from "../../assets/books/images/Gods-Generals-The-Revivalists.jpg"
-import AtomicHabitImg from "../../assets/images/atomic-habits-james-clear.png"
-import PsyMoneyImg from "../../assets/images/psychology-of-money.webp"
-import MonkFerrariImg from "../../assets/images/the-monk-who-sold-his-ferrari.jpg"
+import AtomicHabitImg from "../../assets/books/images/atomic-habits-james-clear.png"
+import PsyMoneyImg from "../../assets/books/images/psychology-of-money.webp"
+import MonkFerrariImg from "../../assets/books/images/the-monk-who-sold-his-ferrari.jpg"
 import RichDadPoorDadImg from "../../assets/books/images/rich-dad-poor-dad.jpg"
 import SecretOfPreparationImg from "../../assets/books/images/secret-of-preparation-on-time.jpg"
 import HowYouCanBeLedByHolySpiritImg from "../../assets/books/images/how-you-can-be-led-by-the-spirit-of-god.jpg"
@@ -40,7 +40,7 @@ const Explore = () => {
             <SingleBook title="The Monk Who Sold His Ferrari" author="Robin Sharma" coverImage={MonkFerrariImg} bookLink={MonkFerrariBook} />
             <SingleBook title="Rich Dad Poor Dad" author="Robert Kiyosaki" coverImage={RichDadPoorDadImg} bookLink={RichDadPoorDad}/>
             <SingleBook title="Secret of Preparation on Time" author="Bishop David Oyedepo" coverImage={SecretOfPreparationImg} bookLink={SecretOfPreparation}/>
-            <SingleBook title="How To Be Led By The Spirit of God" author="Kenneth Hagin" coverImage={HowYouCanBeLedByHolySpiritImg} bookLink={HowYouCanBeLedByHolySpirit}/>
+            <SingleBook title="How You Can Be Led By The Spirit of God" author="Kenneth Hagin" coverImage={HowYouCanBeLedByHolySpiritImg} bookLink={HowYouCanBeLedByHolySpirit}/>
             <SingleBook title="Growing Up Spiritually" author="Kenneth Hagin" coverImage={GrowingUpSpirituallyImg} bookLink={GrowingUpSpiritually}/>
           </div>
           <div className="explore-peace">
