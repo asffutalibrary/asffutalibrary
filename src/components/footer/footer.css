@@ -82,6 +82,34 @@
     width: 250px;
 }
 
+.footer-navlinks form button {
+    border: none;
+    padding: 0;
+    margin-bottom: -10px;
+    background-color: #fff;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+}
+
+.bottom-footer {
+    border-top: 1px #E8E8E8 solid;
+    margin-top: 80px;
+    padding: 40px 0 24px 0;
+}
+
+.bottom-footer a {
+    margin-right: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+}
+
+.bottom-footer a:hover {
+    color: #781717;
+    text-decoration: underline;
+}
+
 
   
 @media only screen and (max-width: 767px) {
@@ -96,5 +124,6 @@
     .footer-sections {
         display: flex;
         flex-direction: column;
+        gap: 30px;
     }
 }

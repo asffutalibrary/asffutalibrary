@@ -19,10 +19,13 @@ import OperatingInTheSupernatural from "../../assets/books/spiritual/[David_Oyed
 
 
 // Academics Book Images
-
+import OneHundredLevelImg from "../../assets/books/images/100-level.png"
+import TwoHundredLevelImg from "../../assets/books/images/200-level.png"
+import ThreeHundredLevelImg from "../../assets/books/images/300-level.png"
+import FourHundredLevelImg from "../../assets/books/images/400-level.png"
 
 // Academics Books
-
+//The books will be links to each section of their google drives
 
 
 // Financial Book Images
@@ -40,7 +43,7 @@ import SecretOfPreparation from "../../assets/books/[david_oyedepo]_secret_of_pr
 
 const Library = () => {
   return (
-    <>
+    <>s
       <Header />
       <BookSection sectionTitle="Spiritual Books" navLinkTo="https://drive.google.com/drive/folders/1MSbugMQEDOIeW8FqrLHvZVMbn5b-_tiDl">
         <SingleBook title="Gods Generals The Revivalists" author="Robert Liardon" coverImage={GodsGeneralImg} bookLink={GodsGeneralBook}/>
@@ -49,10 +52,10 @@ const Library = () => {
         <SingleBook title="Operating In The Supernatural" author="Bishop David Oyedepo" coverImage={OperatingInTheSupernaturalImg} bookLink={OperatingInTheSupernatural}/>
       </BookSection>
       <BookSection sectionTitle="Academic Books" navLinkTo="https://drive.google.com/drive/folders/1Rec2TRhQUBIKy3pUDoqnT-O78vwacy2G">
-        <SingleBook title="Operating In The Supernatural" author="Bishop David Oyedepo" coverImage={OperatingInTheSupernaturalImg} bookLink={OperatingInTheSupernatural}/>
-        <SingleBook title="Operating In The Supernatural" author="Bishop David Oyedepo" coverImage={OperatingInTheSupernaturalImg} bookLink={OperatingInTheSupernatural}/>
-        <SingleBook title="Operating In The Supernatural" author="Bishop David Oyedepo" coverImage={OperatingInTheSupernaturalImg} bookLink={OperatingInTheSupernatural}/>
-        <SingleBook title="Operating In The Supernatural" author="Bishop David Oyedepo" coverImage={OperatingInTheSupernaturalImg} bookLink={OperatingInTheSupernatural}/>
+        <SingleBook title="100 Level Materials" author="ASF Library Editorial" coverImage={OneHundredLevelImg} bookLink={"https://drive.google.com/drive/folders/1qKXYrPEEG_bzHyhgEWpbjruQ6v7h9M32"}/>
+        <SingleBook title="200 Level Materials" author="ASF Library Editorial" coverImage={TwoHundredLevelImg} bookLink={"https://drive.google.com/drive/folders/1MyLjOrLYOPiua6-VgnSgpNKjCVNzbZH5"}/>
+        <SingleBook title="300 Level Materials" author="ASF Library Editorial" coverImage={ThreeHundredLevelImg} bookLink={"https://drive.google.com/drive/folders/1rxOTDR3Q8AX6C3fRC5mRhLjhjNdmmsU-"}/>
+        <SingleBook title="400 Level Materials" author="ASF Library Editorial" coverImage={FourHundredLevelImg} bookLink={"https://drive.google.com/drive/folders/1TwBizPTYt7hgZevVRxKYbKr9IF7PpqAf"}/>
       </BookSection>
       <BookSection sectionTitle="Financial Books" navLinkTo="https://drive.google.com/drive/folders/1bWJkN5F5MK3cTqLdNpeqLgP9a5RR5aJf">
         <SingleBook title="Psychology of Money" author="Morgan Housel" coverImage={PsyMoneyImg} bookLink={PsyMoneyBook} />
