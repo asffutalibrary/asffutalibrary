@@ -2,6 +2,7 @@ import React from "react";
 import "./courseMaterials.css";
 import SingleBook from "../single-book/singleBook";
 import Layout from "../../utils/layout/layout";
+import { NavLink } from "react-router-dom";
 
 const CourseMaterials = () => {
   return (
@@ -15,6 +16,7 @@ const CourseMaterials = () => {
           <SingleBook />
           <SingleBook />
         </div>
+        <NavLink to="https://drive.google.com/drive/folders/1Rec2TRhQUBIKy3pUDoqnT-O78vwacy2G" className="book-section-button">See More</NavLink>
       </div>
     </Layout>
   );

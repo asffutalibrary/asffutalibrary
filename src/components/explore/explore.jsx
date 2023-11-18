@@ -2,15 +2,26 @@ import React from "react";
 import "./explore.css";
 import SingleBook from "../single-book/singleBook";
 import Layout from "../../utils/layout/layout";
+
+//book images
+import GodsGeneralImg from "../../assets/books/images/Gods-Generals-The-Revivalists.jpg"
+import AtomicHabitImg from "../../assets/books/images/atomic-habits-james-clear.png"
+import PsyMoneyImg from "../../assets/books/images/psychology-of-money.webp"
+import MonkFerrariImg from "../../assets/books/images/the-monk-who-sold-his-ferrari.jpg"
+import RichDadPoorDadImg from "../../assets/books/images/rich-dad-poor-dad.jpg"
+import SecretOfPreparationImg from "../../assets/books/images/secret-of-preparation-on-time.jpg"
+import HowYouCanBeLedByHolySpiritImg from "../../assets/books/images/how-you-can-be-led-by-the-spirit-of-god.jpg"
+import GrowingUpSpirituallyImg from "../../assets/books/images/growing-up-spiritually.jpg"
+
 // books
-import GodsGeneralImg from "../../assets/Gods-Generals-The-Revivalists.jpg"
-import GodsGeneralBook from "../../assets/books/Gods-Generals-TheRevivalists-Roberts-Liardon.pdf"
-import AtomicHabitImg from "../../assets/atomic-habits-james-clear.png"
+import GodsGeneralBook from "../../assets/books/spiritual/Gods-Generals-TheRevivalists-Roberts-Liardon.pdf"
 import AtomicHabitBook from "../../assets/books/Atomic-Habits-by-James-Clear.pdf"
-import PsyMoneyImg from "../../assets/psychology-of-money.webp"
-import PsyMoneyBook from "../../assets/books/Psychology-of-Money.pdf"
-import MonkFerrariImg from "../../assets/the-monk-who-sold-his-ferrari.jpg"
-import MonkFerrariBook from "../../assets/books/the-monk-who-sold-his-ferrari.pdf"
+import PsyMoneyBook from "../../assets/books/financial/Psychology-of-Money.pdf"
+import MonkFerrariBook from "../../assets/books/financial/the-monk-who-sold-his-ferrari.pdf"
+import RichDadPoorDad from "../../assets/books/financial/Rich-Dad-Poor-Dad.pdf"
+import SecretOfPreparation from "../../assets/books/[david_oyedepo]_secret_of_preparation_on_time(b-ok.org).pdf"
+import HowYouCanBeLedByHolySpirit from "../../assets/books/spiritual/How-You-Can-Be-Led-By-The-Spirit-Kenneth-E-Hagin.pdf"
+import GrowingUpSpiritually from "../../assets/books/spiritual/Kenneth-E-Hagin-Growing-Up-Spiritually.pdf"
 
 
 const Explore = () => {
@@ -27,10 +38,10 @@ const Explore = () => {
             <SingleBook title="Atomic Habits" author="James Clear" coverImage={AtomicHabitImg} bookLink={AtomicHabitBook}/>
             <SingleBook title="Psychology of Money" author="Morgan Housel" coverImage={PsyMoneyImg} bookLink={PsyMoneyBook} />
             <SingleBook title="The Monk Who Sold His Ferrari" author="Robin Sharma" coverImage={MonkFerrariImg} bookLink={MonkFerrariBook} />
-            <SingleBook />
-            <SingleBook />
-            <SingleBook />
-            <SingleBook />
+            <SingleBook title="Rich Dad Poor Dad" author="Robert Kiyosaki" coverImage={RichDadPoorDadImg} bookLink={RichDadPoorDad}/>
+            <SingleBook title="Secret of Preparation on Time" author="Bishop David Oyedepo" coverImage={SecretOfPreparationImg} bookLink={SecretOfPreparation}/>
+            <SingleBook title="How You Can Be Led By The Spirit of God" author="Kenneth Hagin" coverImage={HowYouCanBeLedByHolySpiritImg} bookLink={HowYouCanBeLedByHolySpirit}/>
+            <SingleBook title="Growing Up Spiritually" author="Kenneth Hagin" coverImage={GrowingUpSpirituallyImg} bookLink={GrowingUpSpiritually}/>
           </div>
           <div className="explore-peace">
             <div className="peace-of-mind">
